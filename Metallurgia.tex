@@ -5,7 +5,7 @@
 \usepackage{xcolor}
 \usepackage{graphicx}
 \usepackage{subcaption}
-\graphicspath{{figures/}}
+\graphicspath{{}}
 
 \pagecolor{black}
 \color{white}
@@ -1484,26 +1484,26 @@
         L'acciaio pu\'o esser sottoposta a cicli di trattamento termico. Un ciclo termico \'e caratterizzato da un riscaldamento, un mantenimento alla temperatura finale e un raffreddamento.\\
         \begin{figure}[h!]
             \centering
-            \includegraphics[width=.7\linewidth]{Metallurgia/L15 - Diagramma ciclo termico ideale.png}
+            \includegraphics[width=.7\linewidth]{L15 - Diagramma ciclo termico ideale.png}
         \end{figure}
         \newpage
         Il diagramma di stato di un materiale \'e rappresentativo del raffreddamento pi\'u lento, invece se l'acciaio fosse sottoposto ad un trattamento di raffreddamento pi\'u brusco, c'\'e la possibilit\'a che il trasformazione di $\gamma$ non darebbe lo stesso risultato del trattamento pi\'u lento.\\
         \subsection{Curve TTT}
             \begin{figure}[h!]
                 \centering
-                \includegraphics[width=.75\linewidth]{Metallurgia/L15 - Ciclo TTT.png}
+                \includegraphics[width=.75\linewidth]{L15 - Ciclo TTT.png}
             \end{figure}
             Il mantenimento alle temperature sopra i punti critici e in fatto in modo per permettere la formazione dell'austenite perch\'e per effettuare la trasformazione ci vuole tempo. I punti critici sono I punti di trasformazione di Austenite, che nel diagramma di stato sono A$_1$, A$_3$ e A$_{cm}$ e gli stessi simboli verrano usati anche in questi casi.\\
             Il TTT convilge un riscaldamento, mantenimento, raffreddamento e mantenimento ad una temperatura, poi durante questo mantenimento l'Austenite inizia a trasformarsi e ri formano diverse strutture. Il punto dove la trasformazione inizia e finisce viene segnato e messo in un grafico.\\
             \newpage
             \begin{figure}[h!]
                 \centering
-                \includegraphics[width=.75\linewidth]{Metallurgia/L15 - TTT con cerchi e croci.png}
+                \includegraphics[width=.75\linewidth]{L15 - TTT con cerchi e croci.png}
             \end{figure}
             L'esperienza di Bain \'e il nome dato quando le linee formate da questo processo sono tracciate e analizzate.  Si trovano diversi campi, per primo il campo della perlite (nel caso di C = 0,77$\%$, ferrite e cementite anche a diverse concentrazioni) che \'e sopra la gobba dalla C formata dal grafico, mentre il campo della Bainite \'e sotto la gobba. Le linee horizzontali rappresentato l'inizio e la fine della formazione della Martensite, che sono sempre damercate da M$_s$ per Martensite start e a volte M$_f$ per Martensite finish.\\
             \begin{figure}[h!]
                 \centering
-                \includegraphics[width=.75\linewidth]{Metallurgia/L15 - TTT per C77.png}
+                \includegraphics[width=.75\linewidth]{L15 - TTT per C77.png}
             \end{figure}
             La Marteniste avveine durante il raffreddmanento brusco del metallo non a t = cost, quindi se M$_s$ \'e stata passata ci sar\'a sempre almeno un'p\'o di martensite. Se M$_f$ \'e passata ci sar\'a solo la Martensite, mentre se si passa M$_s$ ma non M$_f$ con un'p\'o di tempo si former\'a anche della Bainite.
             La Martensite e Bainite sono considerate strutture di non-equilibrio mentre la ferrite e perlite sono strutture di equilibrio.\\
@@ -1511,17 +1511,104 @@
         \subsection{Esempio di Curva TTT per un acciaio ipoeutettoidico}
             \begin{figure}[h!]
                 \centering
-                \includegraphics[width=.7\linewidth]{Metallurgia/L15 - TTT Ipoeutettoidico.png}
+                \includegraphics[width=.7\linewidth]{L15 - TTT Ipoeutettoidico.png}
             \end{figure}
             Per ogni acciaio esiste una e una sola curva di raffreddamento.
             Se un acciaio di mantiene ad una temperatura appena sotto A$_1$ non si forma solo perlite ma si forma anche la ferrite (cementite nel caso i acciai ipereutettoidici)
         \subsection{Curva TTT vera per acciaio C45}
             \begin{figure}[h!]
                 \centering
-                \includegraphics[width=.7\linewidth]{Metallurgia/L15 - Cicli esemplare C45.png}
+                \includegraphics[width=.7\linewidth]{L15 - Cicli esemplare C45.png}
             \end{figure}
             In questo esempio si possono vedere diverse cose. Per primo I numeri accanto alla curva rappresentano la quantita finale della struttura alla fine del trattamento, cio\'e 25$\%$ di ferrite e 75$\%$Perlite a 600$^o$C. Mentre i numeri dentro i cerchi sono la durezza del materiale, dato che sono solo due numeri sono HRC per\'o se fossero 3 sarebbe HV, si pu\'o notare che pi\'u un metallo \'e lontano dall'equilibrio pi\'u \'e duro.
+    \section{Lezione 16 - Curva CCT (Continuous Cooling Trasformation) - Curve di trasformazione anisoterma dell'austenite}
+        Il ciclo CCT, \'e un ciclo di trattamento termico dove il raffreddamento della lega \'e costante e la temperatura \'e tendente a 0.\\
+        La legge di raffreddamento pi\'u lenta possibile \'e quella che viene rappresentata nei diagrammi di stato.
+        \subsection{Cicle di trattamento termico anisotermo}
+            \begin{figure}[h!]
+                \centering
+                \includegraphics[width=.7\linewidth]{L16 - Cicle Trattamento Ideale.png}
+            \end{figure}
+            \begin{figure}[h!]
+                \centering
+                \includegraphics[width=.7\linewidth]{L16 - Esperienza di Bain C = 0,77.png}
+            \end{figure}
+            \begin{figure}[h!]
+                \centering
+                \includegraphics[width=.7\linewidth]{L16 - Diagramma CCT con le velocita.png}
+            \end{figure}
+            v$_s$ \'e la velocit\'a massima sopra cui \'e tutto Martensite\\
+            v$_i$ \'e la velocit\'a minima sottoo cui si ha tutta perlite\\
+        \subsection{Acciai Ipoeutettodici}
+            \begin{figure}[h!]
+                \centering
+                \includegraphics[width=.7\linewidth]{L16 - CCT per Acciai Ipoeutettoidici.png}
+            \end{figure}
+            \begin{figure}[h!]
+                \centering
+                \includegraphics[width=.7\linewidth]{L16 - CCT con le strutture finali.png}
+            \end{figure}
+        \subsection{Acciai Ipereutettoidici}
+            \begin{figure}[h!]
+                \centering
+                \includegraphics[width=.7\linewidth]{L16 - CCT per Acciai Ipereutettoidici con strutture finali.png}
+            \end{figure}
+        \subsection{Curve CCT}
+            Per ogni acciaio esiste una curva CCT anisoterma. Si pu\'o differenziare una curva CCT da una TTT perche invece di esserci linee orizzontali per determinare la durezza ci sono curve tendenti a T$_{AMB}$. Nel CCT non si mette M$_f$ perch\'e a causa del raffreddamento rapido quando si forma la Martensite, alcune tracce di Austenite rimangono.\\
+            Nelle curve CCT la durezza aumenta pi\'u si fa in basso e a sinistra mentre nelle curve TTT la durezza aumenta pi\'u si abbassa la temperatura a cui si mantiene il pezzo.\\
+            Praticamente tutti gli elementi di lega spostano le curve TTT e CCT a destra e in basso. \\ \\
+            La Martensite \'e la struttura pi\'u dura, quindi spostando gi\'u e destra la curva CCT rende pi\'u facile formare la Martensite.
+            \begin{figure}[h!]
+                \centering
+                \includegraphics[width=.7\linewidth]{L16 - TTT e CCT con elementi che spostano la curva.png}
+            \end{figure}
+        \subsection{Strutture di equilibrio e disequilibrio}
+            La Ferrite, Perlite e Cementite sono strutture che si formano ad equilibrio, tutte si formano per nucleazione a crescimento.\\
+            Invece la Bainite e Martensite sono strutture a non-equilibrio, la Bainite si forma per nucleazione a crescimento mentre la Martensite si forma per una trasformazione istantanea del reticolo.
+        \subsection{Nucleazione a crescimento}
+            Come spiegato in altre lezioni, la nucleazione a crescimento consiste nella formazione di grani piccoli che con tempo crescono a formare grani che compongono l'interita della struttura di un metallo. A temperature elevate i grani sono grossi, cio\'e l'accrescimento \'e favorito, mentre a temperature basse i grani sono pi\'u fini a la nucleazione \'e favorita.\\
+            \begin{figure}[h!]
+                \centering
+                \includegraphics[width=.7\linewidth]{L16 - CCT con legge veloci e lente.png}
+            \end{figure}
+            Anche se si forma la stessa struttura i grani pi\'u fini formano una struttura pi\'u dura quindi pi\'u si abbassa la temperatura pi\'u si indurisce il materiale.\\
+            La ricottura \'e quando un metallo viene riscaldato e lasciato a raffreddare nel forno.\\
+            \begin{figure}[h!]
+                \centering
+                \includegraphics[width=.7\linewidth]{L16 - Diagramma diffusione di C nella formazione di lamelle.png}
+            \end{figure}
+            Durante la trasformazione Austenite $\rightarrow$ Perlite gli atomi di carbonio lasciano l'Austenite e si concentrano in punti che diventano Fe$_3$C, mentre il resto diventa $\alpha$. Questa trasformazione causata dalla diffusone del carbonio (immagine sopra). Se il carboni ha meno tempo per diffondersi, ed \'e forzato a diffondersi in zone pi\'u piccole  le lamella formate sono pi\'u piccole. La formazione della Ferrite, Perlite, Bainite e Cementite \'e causata dalla diffusione del carbonio.\\
+            \begin{figure}[h!]
+                \centering
+                \includegraphics[width=.7\linewidth]{L16 - Nucleazione della perlite nei grani.png}
+            \end{figure}
+        \subsection{Bainite}
+            La Bainite \'e una specie di perlite degenerata, cio\'e non \'e riuscita a diventare perlite completa.\\
+            \begin{figure}[h!]
+                \centering
+                \includegraphics[width=.7\linewidth]{L16 - Formazione della Bainite.png}
+            \end{figure}
+            La Bainite ha una legge di raffreddamento pi\'u corta della perite, quindi il carbonio non ha tempo per diffondersi, per ci\'o la lamelle non riescono a formarsi normalmente ma invece si formano delle placchette di Fe$_3$C. La formazione di aghi di $\alpha$ con placchette di Fe$_3$C si chiama Bainite. 
+        \subsection{La Trasformazione Martensitica}
+            La trasformazione Martensitica \'e istantanea e non per nucleazione a crescimento.\\
+            \begin{figure}[h!]
+                \centering
+                \includegraphics[width=.7\linewidth]{L16 - CCT per formazione della Martensite.png}
+            \end{figure}
+            Se si raffredda troopo velocemente, il carbonio non si diffonde pi\'u, il carbonio \'e intrappolato, perch\'e ad alte temperature la struttura del ferro \'e CFC, mentre a basse temperature \'e CCC. Dato che CCC ha meno spazio e il carbonio non ha tempo per muoversi, viene bloccato nella nuova struttura CCC del ferro. L'austenite deve diventare ferrite con il carbonio che non pu\'o uscire, il carbonio per ci\'o rimane intrappolato distrubando la struttura CCC della ferrite, e questa nuova struttura \'e chiamata martensite. Per questa ragione la Martensite \'e nota come la fase $\alpha$ distorta. La Martensite \'e omogenea.\\
+            La struttura della Martensite \'e a triangoli, questo \'e perch\'e la struttura ad aghetti si dispone come un triangolo dove gli aghi sono il lati.\\
+            La Martensite \'e dura ma \'e anche molto fragile. La fragilit\'a dipende dalla concentrazione di carbonio, mentre la durezza non cambia.
+            \begin{figure}[h!]
+                \centering
+                \includegraphics[width=.7\linewidth]{L16 - Cambio delle strutture con e senza C.png}
+            \end{figure}
+            Il carbonio cambia la disorte il CCC forzandolo a rimanere in una configurazione in cui non dovrebbe essere. Il carbonio forza una struttura CCC allungata che non sarebbe possibile normalmente.
+            \begin{figure}[h!]
+                \centering
+                \includegraphics[width=.7\linewidth]{L16 - Cubo dentro cubo della Martensite con C.png}
+            \end{figure}
+            Dato che la Martensite con \'e formata a causa della nucleazione a crescimento le dimensioni delle zone martensitiche non aumentano, aumentano solo in numero.
+            
             
         
-    
 \end{document}
